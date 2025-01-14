@@ -1,0 +1,28 @@
+/* Container styling */
+.page2-container {
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Content container */
+.page2-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Text styling */
+.page2-text {
+  width: 60%;
+  font-size: 3rem; /* Equivalent to text-6xl */
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}

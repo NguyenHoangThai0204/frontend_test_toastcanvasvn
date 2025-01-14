@@ -1,0 +1,79 @@
+/* Container for the page */
+.page5-container {
+  position: relative;
+  height: 100vh;
+  background-size: 105%;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+/* Content section on the bottom-left corner */
+.page5-content {
+  position: absolute;
+  bottom: 8rem;
+  left: 12rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+/* Each section (Company, Warranty, Technical Support) */
+.page5-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 18rem;
+}
+
+/* Title for each section (Company, Warranty, Technical Support) */
+.section-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Item container for Company and Technical Support */
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 18rem;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect on item container */
+.contact-item:hover {
+  background-color: white;
+}
+
+/* Contact text style */
+.contact-text {
+  font-size: 1.125rem;
+  color: #A0AEC0;
+  text-align: left;
+}
+
+/* Show icon on hover */
+.contact-item .contact-icon {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.contact-item:hover .contact-icon {
+  opacity: 1;
+}
+
+/* Learn more link style */
+.learn-more {
+  font-size: 1.125rem;
+  cursor: pointer;
+  color: #A0AEC0;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+  background-color: white;
+}

@@ -1,0 +1,78 @@
+.page4-container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.page4-title {
+  font-size: 8rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.page4-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  width: 83.33%;
+}
+
+@media (min-width: 768px) {
+  .page4-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.page4-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.section-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.custom-scroll {
+  overflow: auto;
+  height: 18rem;
+}
+
+.history-content,
+.partners-description,
+.patents-list,
+.awards-list {
+  font-size: 1.125rem;
+  text-align: left;
+}
+
+.history-year {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.history-description,
+.partners-description,
+.patents-list,
+.awards-list {
+  margin-left: 1.25rem;
+  margin-top: 1rem;
+}
+
+.partners-list,
+.patents-list,
+.awards-list {
+  list-style-type: disc;
+}
+
+.partners-list li,
+.patents-list li,
+.awards-list li {
+  margin-bottom: 0.5rem;
+}

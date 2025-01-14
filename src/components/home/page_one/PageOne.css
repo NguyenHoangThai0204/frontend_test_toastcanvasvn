@@ -1,0 +1,69 @@
+/* Container styling */
+.page1-container {
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+/* Content container */
+.page1-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+/* Text container */
+.page1-text-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Title styling */
+.page1-title {
+    font-size: 5rem; /* Equivalent to text-8xl */
+    font-weight: bold;
+    color: #1e3a8a; /* Equivalent to text-blue-900 */
+    margin-bottom: 2.5rem; /* Equivalent to mb-10 */
+    animation: fadeInDown 0.5s ease-in-out;
+    animation-delay: 0.15s;
+}
+
+/* Description styling */
+.page1-description {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    text-align: left;
+    color: #4b5563; /* Equivalent to text-gray-700 */
+    width: 80%; /* Equivalent to w-4/5 */
+    animation: fadeInDown 0.5s ease-in-out;
+    animation-delay: 0.15s;
+}
+
+/* Ending line styling */
+.page1-ending {
+    margin-top: 8rem; /* Equivalent to mt-32 */
+    margin-bottom: 1.25rem; /* Equivalent to mb-5 */
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    color: #4b5563; /* Equivalent to text-gray-700 */
+    animation: fadeInDown 0.5s ease-in-out;
+    animation-delay: 0.15s;
+}
+
+/* Keyframes for fadeInDown animation */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
